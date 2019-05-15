@@ -1,0 +1,1 @@
+/var/adictsakha/scripts.js

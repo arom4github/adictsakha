@@ -1,0 +1,12 @@
+AddDefaultCharset UTF-8
+RewriteEngine on
+
+RewriteRule (en|ru)$ /?$1=1 [L]
+RewriteRule ^(authors|about|dict|experiment)$ /?page=$1 [L]
+RewriteRule ^dictright$ /?page=dict&dict=right [L]
+RewriteRule ^dictback$ /?page=dict&dict=back [L]
+RewriteRule ^dictlist$ /?page=dict&dict=list [L]
+
+RewriteRule ^corpora/(authors|about|corp)$ /corpora/?page=$1 [L]
+
+
